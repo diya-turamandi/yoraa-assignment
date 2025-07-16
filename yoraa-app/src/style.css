@@ -1,0 +1,218 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+
+.navbar {
+  position: relative;
+  height: 80px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo {
+  position: absolute;
+  left: 64px;
+  top: 19px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+
+.menu {
+  position: absolute;
+  left: 332px;
+  top: 19px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+.right-links {
+  position: absolute;
+  left: 1495px;
+  top: 12px;
+  height: 36px;
+  width: auto; 
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  white-space: nowrap; 
+}
+
+
+.right-links a {
+  text-decoration: none;
+  color: #888;
+  font-weight: 500;
+  font-size: 15px;
+}
+.icons {
+  position: absolute;
+  right: 30px;  
+  top: 19px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+
+.tip-card {
+position: absolute;
+  left: 741px;
+  top: 242px;
+  width: 438px;
+  height: 335px;
+  margin: 120px auto 80px;
+  padding: 30px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: white;
+}
+
+.tip-card h6 {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tip-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tip-card ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.tip-card button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  background: transparent;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+
+footer {
+    position: absolute;
+    width: 1920px;
+  height: 337px;
+  top: 923px;
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.logo2{
+    position: absolute;
+    left: 64px;
+    top: 15px;
+    padding: 50px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.footer-section h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-section{
+    padding: 50px;
+    position: relative;
+    left: 50px;
+}
+.footer-section a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.footer-section a:hover {
+  color: #fff;
+}
+
+.subscribe {
+  display: flex;
+  margin-top: 10px;
+}
+
+.subscribe input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.subscribe button {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+small {
+  display: block;
+  margin-top: 15px;
+  color: #aaa;
+}
+.icons {
+  position: absolute;
+  left: 1790px;
+  top: 19px;
+  display: flex;
+  gap: 20px;
+}
+
+.icons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #aaa;
+}
+
